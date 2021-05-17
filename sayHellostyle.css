@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+.container {
+    float: left;
+    width: 30%;
+    background-color: white;
+    margin: 0px 20px auto;
+    height: 680px;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+.title {
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 1500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.row .inputBox {
+    padding: 14px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.Label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 5px;
+}
+
+.submitButton {
+    background: linear-gradient(to right, purple, blue);
+    margin: 0px auto;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    border-radius: 8em / 10em;
+    -webkit-border-radius: 8em / 10em;
+    -moz-border-radius: 8em / 10em;
+    -ms-border-radius: 8em / 10em;
+    -o-border-radius: 8em / 10em;
+    font-weight: 700px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputBox option {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+}
+
+.tablecontainer table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.tablecontainer th {
+    background-color: blue;
+    color: while;
+}
+
+.tablecontainer tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.tablecontainer tr:nth-child(even):hover {
+    background-color: grey;
+    color: white;
+}
+
+.tablecontainer {
+    margin-top: 40px;
+    float: right;
+    width: 60%;
+    margin-right: 5%;
+    background-color: white;
+}
+
+.tablecontainer th,
+td {
+    padding: 20px 0px;
+}
